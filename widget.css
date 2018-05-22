@@ -1,0 +1,129 @@
+body {
+    padding: 0px;    
+}
+
+.knowledge-rating{
+    float:right;
+}
+.knowledge-rating .bar{
+    width:200px;
+    display:inline-block;
+    border:1px solid gray;
+}
+.knowledge-rating .fill{
+    background:red;
+}
+.answer, .were-you, .flip{
+    display:inline-block;
+}
+.were-you{
+    display:none;
+}
+.answer, .flip{
+    position:relative;
+    background-repeat: no-repeat;
+    background-position:10px, 3px;
+    vertical-align: middle;
+    line-height:2em;
+    padding:5px;
+    margin:5px;
+    padding-left:50px;
+    padding-right:17px;
+    height:30px;
+    border: 2px solid gray;
+    border-radius:5px;
+    cursor:pointer;
+}
+.answer:hover{
+    border-color:lightgray;
+}
+
+.icon-key{
+    position: absolute;
+    top: 16px;
+    right: -12px;
+    width: 21px;
+    height: 16px;
+}
+
+.icon-key:before{
+    position: absolute;
+    top: 8px;
+    left: -13px;
+    font-size: 24px;
+}
+
+
+.flip{
+    background-image:url('/widgets/flashcards/images/flip.png');
+}
+.right{
+    background-image:url('/widgets/flashcards/images/right.png');
+}
+.wrong{
+    background-image:url('/widgets/flashcards/images/wrong.png');
+}
+.neutral{
+    background-image:url('/widgets/flashcards/images/neutral.png');
+}
+
+
+#cards-stage {
+    position:relative;
+    margin: 0px;
+    padding: 0px;
+    width: 95%;
+    overflow: scroll;
+    padding:1em;
+}
+#cards-container{
+    width:200%;
+    display:table;
+    min-height:300px;
+    position:relative;
+}
+.card {
+    display:table-cell;
+    width: 49%;
+    height: 300px;
+    font-size: 50px;
+    text-align: left;
+    margin-right:4px;
+    left: 50%;
+    top: 100px;
+    padding:0.5em;
+}
+.edit-card{
+    font-size: 22px;
+    position: absolute;
+    left: calc(50% - 80px);
+    top: 8px;
+    color: blue;
+    cursor: pointer;
+}
+.card-back .edit-card{
+    left: 70%;
+    right: 8px;
+    left: auto;
+}
+#thin-ads{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    font-size: 12px;
+}
+
+.card-front {
+    padding-top:2em;
+    background-color:pink;
+    background-image: url('/images/light-card-background.png');
+    background-repeat: repeat-x;
+    left:5%;
+    border-right: 2px solid white;
+}
+
+.card-back {
+    background-color: pink;
+    left: 150%;
+}
+
