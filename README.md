@@ -16,3 +16,6 @@ If you build something that you would like me to add to the site as a new widget
 ## Share the sense
 
 If you include an adsense client id in your manifest file, and I use your widget on the site, I will use your client id in the adsense code block on the widget page 50% of the time so you can earn revenue on it. 
+
+## Contact
+[My github username]@gmail.com
