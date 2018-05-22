@@ -116,7 +116,7 @@ body {
 .card-front {
     padding-top:2em;
     background-color:pink;
-    background-image: url('/images/light-card-background.png');
+    background-image: url('https://cueflash.com/images/light-card-background.png');
     background-repeat: repeat-x;
     left:5%;
     border-right: 2px solid white;
