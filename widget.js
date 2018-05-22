@@ -7,7 +7,9 @@ $(document).ready(function(){
     $('.answer').click(function(){
         setAnswer($(this).attr('data-answer'));
     })
-
+    if(!logged_in){
+        $('.edit-card').hide();
+    }
     function flip(){
         if(cc.css('margin-left')=='0px'){
             cc.animate({
