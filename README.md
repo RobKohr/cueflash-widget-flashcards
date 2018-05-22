@@ -19,3 +19,5 @@ If you include an adsense client id in your manifest file, and I use your widget
 
 ## Contact
 [My github username]@gmail.com
+
+use cueflash-widget as the subject
