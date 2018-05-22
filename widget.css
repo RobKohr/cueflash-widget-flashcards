@@ -55,16 +55,16 @@ body {
 
 
 .flip{
-    background-image:url('/widgets/flashcards/images/flip.png');
+    background-image:url('images/flip.png');
 }
 .right{
-    background-image:url('/widgets/flashcards/images/right.png');
+    background-image:url('images/right.png');
 }
 .wrong{
-    background-image:url('/widgets/flashcards/images/wrong.png');
+    background-image:url('images/wrong.png');
 }
 .neutral{
-    background-image:url('/widgets/flashcards/images/neutral.png');
+    background-image:url('images/neutral.png');
 }
 
 
