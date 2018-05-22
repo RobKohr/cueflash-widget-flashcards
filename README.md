@@ -1,7 +1,7 @@
 # cueflash-widget-flashcards
 
 This is a widget for cueflash.com. You can use it as the 
-basis for new widget by forking this repo. 
+basis for new widget by forking this repo and giving it the name of your new widget.
 
 This repo is used as a flashcard deck for studying.
 
