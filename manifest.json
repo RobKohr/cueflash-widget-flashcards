@@ -3,5 +3,6 @@
     "widget_label":"Start Studying",
     "js":"widget.js",
     "css":"widget.css",
-    "html":"widget.html"
+    "html":"widget.html",
+    "adsense_ad_client_id":"Add your own"
 }
