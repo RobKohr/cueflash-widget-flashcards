@@ -1,3 +1,7 @@
 {
-
+    "widget_id":"flashcards",
+    "widget_label":"Start Studying",
+    "js":"widget.js",
+    "css":"widget.css",
+    "html":"widget.html"
 }
