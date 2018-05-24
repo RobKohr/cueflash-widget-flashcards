@@ -1,7 +1,7 @@
 $(document).ready(function(){
     setTimeout(function(){
         if(typeof(canRunAds)==='undefined'){
-            $('#catch-cover').fadeIn();
+            //$('#catch-cover').fadeIn();
         }
     }, 20000);
 })

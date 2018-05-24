@@ -11,6 +11,7 @@ $(document).ready(function(){
         $('.edit-card').hide();
     }
     function flip(){
+        $('.flip').addClass('hide-if-small');
         if(cc.css('margin-left')=='0px'){
             cc.animate({
                 'margin-left': '-99%',
@@ -145,6 +146,7 @@ $(document).ready(function(){
             'margin-left': '0%',
         });
         $('.were-you').hide();
+        $('.flip').removeClass('hide-if-small');
         var card = getNextCard();
         $(".card-front .content").html(card.front);
         $(".card-back .content").html(card.back);

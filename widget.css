@@ -19,6 +19,14 @@ body {
 .were-you{
     display:none;
 }
+@media (max-width: 800px) {
+    .were-you-text{
+        display:none;
+    }
+    .hide-if-small{
+        display:none;
+    }
+}
 .answer, .flip{
     position:relative;
     background-repeat: no-repeat;
@@ -33,6 +41,7 @@ body {
     border: 2px solid gray;
     border-radius:5px;
     cursor:pointer;
+    width:9vw;
 }
 .answer:hover{
     border-color:lightgray;
@@ -66,7 +75,6 @@ body {
 .neutral{
     background-image:url('images/neutral.png');
 }
-
 
 #cards-stage {
     position:relative;
